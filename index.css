@@ -1,0 +1,1410 @@
+.image-bkg-icon {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  .intersect-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .placeholder1 {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .own-boss-began {
+    color: var(--red);
+  }
+  .become-an-owner,
+  .the-day-the-container {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .the-day-the-container {
+    width: 32.188rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .become-an-owner {
+    flex: 1;
+    font-weight: 500;
+  }
+  .h3,
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+  }
+  .h3 {
+    width: 30.75rem;
+    margin: 0 !important;
+    position: absolute;
+    top: 29.938rem;
+    left: -2.75rem;
+    backdrop-filter: blur(20px);
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-300);
+    justify-content: center;
+    padding: var(--padding-5xl) var(--padding-20xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-9xl);
+  }
+  .title {
+    align-self: stretch;
+    justify-content: space-between;
+    position: relative;
+    gap: var(--gap-3xs);
+    z-index: 1;
+  }
+  .placeeholder,
+  .placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .placeeholder {
+    align-self: stretch;
+    padding: var(--padding-29xl) var(--padding-70xl) 8.812rem;
+    position: relative;
+    gap: var(--gap-3xs);
+    min-height: 40.25rem;
+  }
+  .placeholder {
+    width: 44.6rem;
+    padding: 0 var(--padding-xl) 0 0;
+    z-index: 1;
+  }
+  .logo-ptl-icon {
+    width: 31rem;
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .logo,
+  .logo-ptl-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .logo-ptl-wrapper {
+    width: 37.25rem;
+    align-items: flex-start;
+    padding: 0 0 0 var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .logo {
+    align-self: stretch;
+    align-items: flex-end;
+    z-index: 1;
+  }
+  .our-recruiters-are-container {
+    height: 2.813rem;
+    position: relative;
+    display: inline-block;
+  }
+  .cta {
+    align-self: stretch;
+    backdrop-filter: blur(20px);
+    background-color: var(--color-gray-300);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-7xl) var(--padding-xl);
+    z-index: 1;
+    font-size: var(--font-size-17xl);
+  }
+  .hero-banner,
+  .image-icon {
+    position: relative;
+    max-width: 100%;
+  }
+  .hero-banner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.812rem;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 4.5rem;
+    color: var(--color-white);
+    font-family: var(--font-outfit);
+  }
+  .image-icon {
+    height: 41.494rem;
+    flex: 1;
+    overflow: hidden;
+    min-width: 28.938rem;
+  }
+  .reving-the-dream {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 3.75rem;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .h2 {
+    border-radius: 0 0 0 var(--br-31xl);
+    background-color: var(--black);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl) 3.312rem;
+  }
+  .as-a-fully-employee-owned {
+    font-weight: 600;
+  }
+  .as-a-fully-employee-owned-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.75rem;
+  }
+  .its-the-day {
+    width: 34.25rem;
+    height: 4.563rem;
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 1.75rem;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .as-a-fully-employee-owned-truc-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-15xl);
+    max-width: 100%;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-200);
+  }
+  .button-child {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--red);
+  }
+  .search-owner-operator {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 1.75rem;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .button,
+  .image-parent,
+  .information {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .button {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2.187rem var(--padding-22xl) 2.125rem;
+    position: relative;
+    font-size: var(--font-size-17xl);
+  }
+  .image-parent,
+  .information {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .information {
+    width: 35.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5.593rem 0;
+    gap: var(--gap-31xl);
+    min-width: 35.75rem;
+  }
+  .image-parent {
+    width: 86rem;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: 4.5rem;
+  }
+  .truck-1-icon {
+    width: 86.625rem;
+    flex: 1;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .truck-info {
+    align-self: stretch;
+    height: 14.25rem;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-10xl) 1.187rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .call-now-866-753-49851 {
+    color: var(--black);
+  }
+  .our-recruiters-are-container1 {
+    height: 2.813rem;
+    width: 54.5rem;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .about-us,
+  .cta1 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .cta1 {
+    backdrop-filter: blur(20px);
+    background-color: var(--red);
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-7xl) var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-17xl);
+  }
+  .about-us {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--color-white);
+    font-family: var(--font-outfit);
+  }
+  .icon {
+    width: 3.331rem;
+    height: 3.331rem;
+    position: relative;
+  }
+  .check {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4.062rem;
+  }
+  .weekly-settlements-direct {
+    margin: 0;
+  }
+  .high-drop {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .weekly-settlements-direct-container {
+    margin: 0;
+    height: 42.438rem;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: calc(100% - 83px);
+  }
+  .information1 {
+    width: 49.125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-63xl);
+    box-sizing: border-box;
+    gap: 1.875rem;
+    min-width: 49.125rem;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .frame-427320624-1 {
+    width: 35.125rem;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .tire {
+    width: 40.188rem;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 4.563rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 100%;
+  }
+  .owner-operator-trucking {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .cta-image-icon,
+  .h21 {
+    align-self: stretch;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .h21 {
+    border-radius: 0 0 0 var(--br-31xl);
+    background-color: var(--black);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.843rem 3.187rem;
+    box-sizing: border-box;
+  }
+  .cta-image-icon {
+    height: 26.438rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .tire-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5.625rem 4.562rem;
+    box-sizing: border-box;
+    position: relative;
+    gap: 4.812rem;
+    max-width: 100%;
+  }
+  .career,
+  .learn-more-set {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .learn-more-set {
+    width: 44.75rem;
+    justify-content: flex-start;
+    min-width: 44.75rem;
+    z-index: 1;
+    text-align: right;
+    font-size: var(--font-size-29xl);
+    color: var(--color-white);
+  }
+  .career {
+    align-self: stretch;
+    justify-content: space-between;
+    row-gap: 20px;
+    gap: -3.875rem;
+    text-align: left;
+    font-size: 2rem;
+    color: var(--black);
+    font-family: var(--font-outfit);
+  }
+  .employee-ownership-program1,
+  .industry-leading-perks {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .industry-leading-perks {
+    text-transform: capitalize;
+    z-index: 2;
+  }
+  .employee-ownership-program1 {
+    width: 17.25rem;
+    line-height: 1.75rem;
+    display: inline-block;
+  }
+  .esop-earned-equity-100-empl {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-5xl);
+  }
+  .esop-earned-container {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+  }
+  .employee-ownership-program {
+    width: 21.375rem;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(20px);
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-400);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lg) var(--padding-5xs) var(--padding-6xl)
+      var(--padding-14xl);
+    box-sizing: border-box;
+    gap: var(--gap-2xs);
+  }
+  .incentives1 {
+    margin: 0;
+    width: 11.063rem;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .weekly-settlements-free-container {
+    width: 12.625rem;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    display: inline-block;
+  }
+  .incentives {
+    width: 21.375rem;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 26.875rem;
+    backdrop-filter: blur(20px);
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-400);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lg) var(--padding-xl) var(--padding-24xl)
+      var(--padding-14xl);
+    box-sizing: border-box;
+    gap: var(--gap-mini);
+  }
+  .perks {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .perks-items {
+    width: 21.375rem;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 53.75rem;
+    backdrop-filter: blur(20px);
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-400);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lg) var(--padding-5xs) var(--padding-24xl)
+      var(--padding-14xl);
+    box-sizing: border-box;
+    gap: var(--gap-mini);
+  }
+  .driver-referral-rewards {
+    margin: 0;
+    width: 15.313rem;
+    position: relative;
+    font-size: inherit;
+    line-height: 1.75rem;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .driver-referral-bonus-container {
+    width: 15.313rem;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    display: inline-block;
+  }
+  .perks-items1 {
+    width: 21.375rem;
+    margin: 0 !important;
+    position: absolute;
+    top: 21.813rem;
+    left: 0;
+    backdrop-filter: blur(20px);
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-400);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lg) var(--padding-xl) var(--padding-29xl)
+      var(--padding-14xl);
+    box-sizing: border-box;
+    gap: var(--gap-2xs);
+  }
+  .performance-bonuses {
+    margin: 0;
+    width: 15.063rem;
+    position: relative;
+    font-size: inherit;
+    line-height: 1.75rem;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .monthly-performance-bonus-container {
+    width: 16.188rem;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    display: inline-block;
+  }
+  .perks-items2 {
+    width: 21.375rem;
+    margin: 0 !important;
+    position: absolute;
+    top: 21.813rem;
+    left: 26.875rem;
+    backdrop-filter: blur(20px);
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-400);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lg) var(--padding-xl) var(--padding-29xl)
+      var(--padding-14xl);
+    box-sizing: border-box;
+    gap: var(--gap-2xs);
+  }
+  .fuel-savings-benefits {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 1.75rem;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .receive-a-020-container {
+    width: 17.25rem;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    display: inline-block;
+  }
+  .bkg,
+  .perks-items3,
+  .perks-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .perks-items3 {
+    width: 21.375rem;
+    margin: 0 !important;
+    position: absolute;
+    top: 21.813rem;
+    left: 53.75rem;
+    backdrop-filter: blur(20px);
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-400);
+    flex-direction: column;
+    padding: var(--padding-lg) var(--padding-5xs) var(--padding-7xl)
+      var(--padding-14xl);
+    box-sizing: border-box;
+    gap: var(--gap-mini);
+  }
+  .bkg,
+  .perks-list {
+    flex-direction: row;
+  }
+  .perks-list {
+    height: 31.563rem;
+    width: 75.125rem;
+    margin: 0 !important;
+    position: absolute;
+    bottom: 6.938rem;
+    left: 5.063rem;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 12.062rem 5.5rem;
+    z-index: 2;
+    font-size: var(--font-size-9xl);
+    color: var(--color-white);
+  }
+  .bkg {
+    flex: 1;
+    background-color: var(--black);
+    padding: var(--padding-70xl) 6.25rem;
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-3xs);
+    min-height: 70.875rem;
+    max-width: 100%;
+  }
+  .truck-vector-child {
+    width: 128.488rem;
+    height: 15.7rem;
+    position: relative;
+    object-fit: contain;
+    max-width: 151%;
+    flex-shrink: 0;
+  }
+  .truck-vector {
+    height: 17.25rem;
+    width: 85.563rem;
+    margin: 0 !important;
+    position: absolute;
+    top: 1.375rem;
+    right: -0.812rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .screenshot-2024-07-18-130048-2,
+  .screenshot-2024-07-18-130048-3 {
+    height: 20.5rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    object-fit: cover;
+  }
+  .screenshot-2024-07-18-130048-2 {
+    width: 25.625rem;
+    left: 0;
+  }
+  .screenshot-2024-07-18-130048-3 {
+    width: 25.5rem;
+    left: 27rem;
+  }
+  .screenshot-2024-07-18-130048-5,
+  .screenshot-2024-07-18-130048-9 {
+    width: 25.625rem;
+    position: absolute;
+    margin: 0 !important;
+    object-fit: cover;
+  }
+  .screenshot-2024-07-18-130048-9 {
+    height: 20.688rem;
+    top: 0;
+    left: 53.875rem;
+  }
+  .screenshot-2024-07-18-130048-5 {
+    height: 20.5rem;
+    top: 22.063rem;
+    left: 0;
+  }
+  .screenshot-2024-07-18-130048-6,
+  .screenshot-2024-07-18-130048-7 {
+    height: 20.5rem;
+    width: 25.5rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 22.063rem;
+    left: 27rem;
+    object-fit: cover;
+  }
+  .screenshot-2024-07-18-130048-7 {
+    width: 25.625rem;
+    left: 53.875rem;
+  }
+  .career-perks,
+  .images {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .images {
+    height: 42.563rem;
+    width: 79.5rem;
+    margin: 0 !important;
+    position: absolute;
+    bottom: 5.25rem;
+    left: calc(50% - 636px);
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: var(--gap-3xl);
+    z-index: 1;
+  }
+  .career-perks {
+    align-self: stretch;
+    position: relative;
+    flex-shrink: 0;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--black);
+    font-family: var(--font-outfit);
+  }
+  .road-top-view-2023-11-27-04-54-icon {
+    align-self: stretch;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .rediscovering-the-long-held {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-19xl);
+    line-height: 3.75rem;
+    font-weight: 700;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+    z-index: 1;
+  }
+  .logo-ptl,
+  .logo-ptl-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .logo-ptl {
+    align-self: stretch;
+    flex: 1;
+    z-index: 1;
+  }
+  .logo-ptl-container {
+    height: 8.688rem;
+    width: 41.125rem;
+    padding: 0.562rem 0 0;
+    box-sizing: border-box;
+    min-width: 41.125rem;
+    max-width: 100%;
+  }
+  .join-our-team {
+    position: relative;
+    font-size: var(--font-size-29xl);
+    line-height: 3.75rem;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .h22 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xl) 4.062rem;
+    background-color: var(--red);
+    border-radius: 0 0 0 var(--br-31xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .h22:hover {
+    background-color: #ff262b;
+  }
+  .fill-out-the {
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 3.75rem;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+    z-index: 1;
+  }
+  .h2-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.125rem;
+    min-width: 32.25rem;
+    max-width: 100%;
+  }
+  .form-fields,
+  .full-name,
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .logo-container {
+    align-self: stretch;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .form-fields,
+  .full-name {
+    justify-content: flex-start;
+  }
+  .full-name {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--color-white);
+    height: 3.75rem;
+    flex: 1;
+    border-radius: var(--br-xl);
+    padding: 0 var(--padding-11xl);
+    box-sizing: border-box;
+    font-family: var(--font-outfit);
+    font-weight: 300;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray-100);
+    min-width: 19.563rem;
+  }
+  .form-fields {
+    align-self: stretch;
+    gap: var(--gap-3xl);
+  }
+  .are-you-21 {
+    width: 10.938rem;
+    border: 0;
+    outline: 0;
+    font-weight: 300;
+    font-family: var(--font-outfit);
+    font-size: var(--font-size-xl);
+    background-color: transparent;
+    height: 3.75rem;
+    position: relative;
+    line-height: 3.75rem;
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+  }
+  .icon6 {
+    width: 1.625rem;
+    height: 1.625rem;
+    position: relative;
+    object-fit: contain;
+  }
+  .are-you-21-or-older,
+  .experience-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-mid) 0 0;
+  }
+  .are-you-21-or-older {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 var(--padding-11xl);
+    box-sizing: border-box;
+    min-width: 19.563rem;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .willing-to-pair {
+    width: 17.125rem;
+    border: 0;
+    outline: 0;
+    font-weight: 300;
+    font-family: var(--font-outfit);
+    font-size: var(--font-size-xl);
+    background-color: transparent;
+    height: 3.75rem;
+    position: relative;
+    line-height: 3.75rem;
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+  }
+  .willing-to-pair-as-a-team-y {
+    flex: 1;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 var(--padding-10xl) 0 1.75rem;
+    box-sizing: border-box;
+    min-width: 19.563rem;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .contact-form,
+  .verifiable-cdl-a-experience {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .verifiable-cdl-a-experience {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--color-white);
+    align-self: stretch;
+    height: 3.75rem;
+    border-radius: var(--br-xl);
+    flex-direction: row;
+    padding: 0 var(--padding-11xl);
+    box-sizing: border-box;
+    font-family: var(--font-outfit);
+    font-weight: 300;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray-100);
+    min-width: 15.625rem;
+  }
+  .contact-form {
+    width: 61.5rem;
+    flex-direction: column;
+    gap: var(--gap-3xl);
+    max-width: 100%;
+    z-index: 1;
+  }
+  .contact-form-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 3.812rem;
+    box-sizing: border-box;
+  }
+  .contact-form-wrapper,
+  .desire-container,
+  .desire-container-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .desire-container {
+    margin: 0;
+    width: 79.688rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.062rem;
+  }
+  .desire-container-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1.437rem 0 var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contact1 {
+    text-decoration: none;
+    position: relative;
+    line-height: 3.75rem;
+    color: inherit;
+    display: inline-block;
+    min-width: 4.688rem;
+  }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .driving-careers1,
+  .privacy-policy1,
+  .rules-tariffs1 {
+    position: relative;
+    line-height: 3.75rem;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .driving-careers1 {
+    width: 8.813rem;
+  }
+  .privacy-policy1,
+  .rules-tariffs1 {
+    min-width: 7.75rem;
+  }
+  .privacy-policy1 {
+    text-decoration: none;
+    width: 7.813rem;
+    color: inherit;
+    min-width: 7.813rem;
+  }
+  .links {
+    width: 47.813rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6.25rem;
+    max-width: 100%;
+  }
+  .paschall-truck-lines {
+    position: relative;
+    line-height: 3.75rem;
+    white-space: nowrap;
+  }
+  .div,
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.625rem;
+  }
+  .footer {
+    align-self: stretch;
+    backdrop-filter: blur(20px);
+    background-color: var(--black);
+    justify-content: space-between;
+    padding: 1.375rem 5rem;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-outfit);
+  }
+  .image-bkg,
+  .ptl-page-2608 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .image-bkg {
+    align-self: stretch;
+    padding: 3.75rem 0 0.687rem;
+    gap: 8.437rem;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .ptl-page-2608 {
+    width: 100%;
+    height: 301.688rem;
+    background-color: var(--color-white);
+    overflow: hidden;
+    padding: 0 0 55.812rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1425px) {
+    .information1 {
+      flex: 1;
+    }
+    .learn-more-set {
+      flex: 1;
+      margin-left: 0;
+    }
+    .career {
+      flex-wrap: wrap;
+    }
+    .h2-parent,
+    .logo-ptl-container {
+      flex: 1;
+    }
+    .logo-container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .footer {
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-21xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .information {
+      flex: 1;
+    }
+    .image-parent {
+      flex-wrap: wrap;
+    }
+    .information1 {
+      min-width: 100%;
+    }
+    .bkg,
+    .tire-parent {
+      box-sizing: border-box;
+    }
+    .tire-parent {
+      padding-top: var(--padding-63xl);
+      padding-bottom: var(--padding-39xl);
+    }
+    .bkg {
+      padding-left: var(--padding-31xl);
+      padding-right: var(--padding-31xl);
+    }
+    .form-fields {
+      flex-wrap: wrap;
+    }
+    .contact-form-wrapper {
+      padding-left: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+    .links {
+      display: none;
+    }
+    .image-bkg {
+      padding-top: var(--padding-20xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .ptl-page-2608 {
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 825px) {
+    .the-day-the-container {
+      font-size: 3.625rem;
+    }
+    .placeeholder {
+      padding: 1.938rem 2.75rem 5.75rem;
+      box-sizing: border-box;
+    }
+    .our-recruiters-are-container {
+      font-size: var(--font-size-10xl);
+    }
+    .image-icon {
+      min-width: 100%;
+    }
+    .reving-the-dream {
+      font-size: var(--font-size-19xl);
+      line-height: 3rem;
+    }
+    .h2 {
+      padding-left: var(--padding-7xl);
+      padding-right: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .as-a-fully-employee-owned-truc-parent {
+      gap: 1.063rem;
+    }
+    .search-owner-operator {
+      font-size: var(--font-size-10xl);
+      line-height: 1.375rem;
+    }
+    .information {
+      gap: var(--gap-6xl);
+      padding-top: var(--padding-39xl);
+      padding-bottom: var(--padding-39xl);
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .image-parent {
+      gap: 2.25rem;
+    }
+    .our-recruiters-are-container1 {
+      font-size: var(--font-size-10xl);
+    }
+    .weekly-settlements-direct-container {
+      font-size: 1.625rem;
+    }
+    .information1 {
+      padding-left: var(--padding-22xl);
+      padding-right: var(--padding-22xl);
+      box-sizing: border-box;
+    }
+    .owner-operator-trucking {
+      font-size: var(--font-size-19xl);
+    }
+    .h21,
+    .tire-parent {
+      padding-left: var(--padding-6xl);
+      padding-right: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .tire-parent {
+      gap: 2.375rem;
+      padding-left: var(--padding-17xl);
+      padding-right: var(--padding-17xl);
+    }
+    .learn-more-set {
+      min-width: 100%;
+    }
+    .industry-leading-perks {
+      font-size: var(--font-size-19xl);
+    }
+    .rediscovering-the-long-held {
+      font-size: 1.875rem;
+      line-height: 3rem;
+    }
+    .logo-ptl-container {
+      min-width: 100%;
+    }
+    .join-our-team {
+      font-size: var(--font-size-19xl);
+      line-height: 3rem;
+    }
+    .h22 {
+      padding-left: var(--padding-13xl);
+      padding-right: var(--padding-13xl);
+      box-sizing: border-box;
+    }
+    .h2-parent {
+      min-width: 100%;
+    }
+    .desire-container {
+      gap: 1rem;
+    }
+    .links {
+      gap: var(--gap-31xl);
+    }
+    .image-bkg {
+      gap: 4.188rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .the-day-the-container {
+      font-size: 2.688rem;
+    }
+    .become-an-owner {
+      font-size: var(--font-size-3xl);
+    }
+    .placeeholder {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .our-recruiters-are-container {
+      font-size: var(--font-size-3xl);
+    }
+    .reving-the-dream {
+      font-size: var(--font-size-10xl);
+      line-height: 2.25rem;
+    }
+    .its-the-day {
+      font-size: var(--font-size-base);
+      line-height: 1.375rem;
+    }
+    .search-owner-operator {
+      font-size: var(--font-size-3xl);
+      line-height: 1.063rem;
+    }
+    .image-parent {
+      gap: 1.125rem;
+    }
+    .our-recruiters-are-container1 {
+      font-size: var(--font-size-3xl);
+    }
+    .weekly-settlements-direct-container {
+      font-size: 1.188rem;
+    }
+    .information1 {
+      gap: var(--gap-mini);
+    }
+    .owner-operator-trucking {
+      font-size: var(--font-size-10xl);
+    }
+    .tire-parent {
+      gap: 1.188rem;
+      padding-bottom: 2.375rem;
+      box-sizing: border-box;
+    }
+    .industry-leading-perks {
+      font-size: var(--font-size-10xl);
+    }
+    .employee-ownership-program1 {
+      line-height: 1.375rem;
+    }
+    .employee-ownership-program1,
+    .incentives1,
+    .perks {
+      font-size: var(--font-size-3xl);
+    }
+    .driver-referral-rewards,
+    .fuel-savings-benefits,
+    .performance-bonuses {
+      font-size: var(--font-size-3xl);
+      line-height: 1.375rem;
+    }
+    .bkg {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .rediscovering-the-long-held {
+      font-size: 1.438rem;
+      line-height: 2.25rem;
+    }
+    .join-our-team {
+      font-size: var(--font-size-10xl);
+      line-height: 2.25rem;
+    }
+    .are-you-21,
+    .fill-out-the,
+    .willing-to-pair {
+      font-size: var(--font-size-base);
+      line-height: 3rem;
+    }
+    .links {
+      gap: var(--gap-6xl);
+    }
+    .image-bkg {
+      gap: var(--gap-15xl);
+      padding-top: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+  }
+  
